@@ -1,3 +1,37 @@
+## TradeHub: Together, we're stronger than the market.
+
+**What IS TradeHub?**
+
+TradeHub is the world's first public trading platform. It's a great place for new investors to learn and grow through sharing their investment portfolio with all other traders worldwide, networking with senior investors, learning new trading strategies and valuation tools, and improving through hands-on practice in a no-commission market.
+
+**Key Points**
+    -it's public, encourages an open, welcoming environment for investors
+    -it's especially suitable for beginners because it provides learning opportunity as well
+    -everyone can share strategies, as well as viewing and analyzing each other's profile. This way, everyone can improve!
+    -stock prices on our platform are real-time, so everything's super accurate!
+
+## Inspiration
+
+We were inspired by an unfortunate lack of resources to really learn trading in today's society. With 
+the increasing number of new traders, especially during the Gamestop series, we thought it would be useful for traders to have a platform specifically dedicates for them to learn from each other.
+
+## How we built it
+
+We used reactjs for the front end and firebase's cloud firestore as a real time database for the back end. We also used figma for design.
+
+## Challenges we ran into
+
+Incredible file system size! Believe it or not, we had nearly 100 files with this project. I wouldn't be surprised if a few hours of our time were actually spent sorting through the numerous folders and trying to update the imports in vsCode as the files grew and grew. 
+Other than that, UI proved to be challenging as well as certain issues we had with firebase. It proved to be a tedious and taxing journey to be able to develop this project to where we now are, but we both learned a lot and are proud of how far we have come.
+
+## Accomplishments that we're proud of
+
+We made a functional trading system where you can buy and sell with real-time prices. We also made a fast, elegant live stock-sharing and blogging system where users can really communicate. Not to mention the overall UI we have is BEAUTIFUL. All of this is no small feat for less than a day of programming!
+
+## What's next for TradeHub
+
+Add actual trading capability, perhaps connect with payment systems so that users can really invest. Ask experienced investors to share their experience on the platform, so that everyone can learn and improve!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
