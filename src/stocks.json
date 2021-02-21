@@ -1,0 +1,102 @@
+[
+    {
+        "Symbol": "APPL",
+        "Name": "Apple"
+    },
+    {
+        "Symbol": "NVDA",
+        "Name": "Nvidia"
+    },
+    {
+        "Symbol": "TSLA",
+        "Name": "Tesla"
+    },
+    {
+        "Symbol": "GM",
+        "Name": "General Motors"
+    },
+    {
+        "Symbol": "SNAP",
+        "Name": "Snapchat"
+    },
+    {
+        "Symbol": "FB",
+        "Name": "Facebook"
+    },
+    {
+        "Symbol": "GOOG",
+        "Name": "Google"
+    },
+    {
+        "Symbol": "MSFT",
+        "Name": "Microsoft"
+    },
+    {
+        "Symbol": "AMZN",
+        "Name": "Amazon"
+    },
+    {
+        "Symbol": "TSM",
+        "Name": "Taiwan Semiconductor Manufacturer"
+    },
+    {
+        "Symbol": "THUB",
+        "Name": "TradeHub"
+    },
+    {
+        "Symbol": "PYPL",
+        "Name": "Paypal"
+    },
+    {
+        "Symbol": "INTC",
+        "Name": "Intel"
+    },
+    {
+        "Symbol": "NFLX",
+        "Name": "Netflix"
+    },
+    {
+        "Symbol": "ADBE",
+        "Name": "Adobe"
+    },
+    {
+        "Symbol": "CSCO",
+        "Name": "Cisco Systems"
+    },
+    {
+        "Symbol": "CLDR",
+        "Name": "Cloudera"
+    },
+    {
+        "Symbol": "COST",
+        "Name": "Costco Wholesale"
+    },
+    {
+        "Symbol": "ATVI",
+        "Name": "Activision Blizzard"
+    },
+    {
+        "Symbol": "BIDU",
+        "Name": "Baidu"
+    },
+    {
+        "Symbol": "ZM",
+        "Name": "Zoom Video Communications"
+    },
+    {
+        "Symbol": "MRNA",
+        "Name": "Moderna"
+    },
+    {
+        "Symbol": "NXPI",
+        "Name": "NXP Semiconductors"
+    },
+    {
+        "Symbol": "AMD",
+        "Name": "Advanced Micro Devices"
+    },
+    {
+        "Symbol": "SHOP",
+        "Name": "Shopify"
+    }
+]

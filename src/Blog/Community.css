@@ -1,0 +1,36 @@
+.community {
+    flex: 0.78;
+    border-right: 1px solid lightblue;
+    min-width: fit-content;
+    overflow-y: scroll;
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .community::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .community {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .community__header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid skyblue;
+    padding: 15px 20px;
+  }
+  
+  .community__header > h2 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 15px;
+  }
+
+  .community__header > h4 {
+    margin-left: 55px;
+  }

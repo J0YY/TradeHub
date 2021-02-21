@@ -1,0 +1,45 @@
+html {
+    @media screen and (max-width: 480px) {
+        font-size: 0.9rem;
+    }   
+}
+
+.stock-showcase-element {
+    width: 38%;
+    padding: 0.6em 1.6em;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    align-items: center;
+    
+    border-radius: 15px;
+    backdrop-filter: blur(60px);
+    background: white;
+    // background: radial-gradient(97.32% 296.18% at 2.68% 5.08%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100%);
+}
+
+.showcase-price {
+
+}
+
+
+.showcase-stockinfo {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 40% 60%;
+    padding: 0.3em;
+    
+    .stock-icon {
+        width: 2.8em;
+    }
+
+    .stock-info {
+        .name {
+            color: #000000;
+        }
+        .ticker {
+            font-size: 0.9em;
+            color: rgba(0, 0, 0, 0.4);
+        }
+    }
+}
+

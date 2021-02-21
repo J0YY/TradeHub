@@ -1,0 +1,58 @@
+
+  .trade {
+    text-align: right;
+    align-items: right;
+    position: relative;
+    margin-left: 65.5%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #31363a;
+    border-radius: 4px;
+    align-self: flex-end;
+    color: black;
+    margin-bottom: 2%;
+    /* background-color: blue; */
+  }
+  
+  .buttons {
+    margin-top: 4%;
+    margin-left: 86%;
+    margin-bottom: 10px;    
+  }
+
+  .buttons button {
+      margin-left: 10px;
+      padding: 4px;
+      border: 1px solid gray;
+      width: 30%;
+      border-radius: 2px;
+  }
+
+  .trade > input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    color : black;
+  }
+  
+  .trade > input:focus {
+    outline: none;
+  }
+
+  .users {
+      display: flex;
+      margin-bottom: 40%;
+      flex-direction: column;
+  }
+
+
+  #combo-box-demo {
+    color: black;
+  }
+
+.MuiAutocomplete-option {
+  color: black;
+}

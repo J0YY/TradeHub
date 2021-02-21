@@ -1,0 +1,138 @@
+html, p {
+  color: black;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background: #fff;
+  z-index: 99;
+  width: 100%;
+  margin: 0 auto;  
+  padding: 1.5em 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  -webkit-box-shadow: 0px 10px 54px -11px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 54px -11px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 54px -11px rgba(0,0,0,0.75);
+}
+
+nav li {
+  color: black;
+}
+
+nav ul {
+  width: 100%;
+  display: grid;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+} 
+
+nav ul:first-of-type{
+  grid-template-columns: 1fr;
+}
+
+nav ul li a{
+  color:#111;
+  text-decoration: none; 
+  font-weight: bold;
+  display: block;
+  font-size: 1.2rem;
+}
+
+nav ul:first-of-type li a{
+  font-size: 1.6em;
+  font-weight: bold;
+  text-indent: 30px;
+}
+nav ul:first-of-type li span {
+  font-weight: 500;
+  color: #444;
+}
+
+nav ul:last-of-type{
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+header {
+  margin-top: 3.5em;
+  background: url("https://i.ibb.co/vhjh3Fw/Screen-Shot-2021-02-20-at-12-39-20-PM.png"); 
+  background-size: 110%;
+  height: 130vh;
+  background-position: center;
+  position: relative;
+}
+
+header div.head {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  width: 70%;
+  grid-template-columns: repeat(2,1fr);
+  margin: 0 auto;
+  padding-top: 12%;
+  align-items: center;
+  
+}
+
+header div.head  {
+  color: #222;
+
+}
+
+
+header div.head h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: none;
+  padding-top: 40px;
+  letter-spacing: 3px;
+}
+
+header div.head p {
+  padding-left: 30px;
+  border-left: 2px solid black;
+  margin-right: 5%;
+}
+
+.section-title {
+  font-size: 3.75em;
+  font-weight: 600;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+.section-desc {
+  margin-top: 2em;
+  text-align: left;
+  font-size: 2.1875em;
+  line-height: 1.8em;
+  color: black;
+}
+
+header div.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 82%;
+  margin: auto;
+}
+

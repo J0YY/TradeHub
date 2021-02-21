@@ -1,0 +1,22 @@
+.stockShowcaseElement {
+    width: 250px;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+    border-radius: 15px;
+    backdrop-filter: blur(60px);
+    background: radial-gradient(97.32% 296.18% at 2.68% 5.08%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100%);
+}
+
+.showcaseStockInfo {
+    
+}
+
+.showcasePrice {
+
+}
+
+.showcaseIcon {
+
+}
